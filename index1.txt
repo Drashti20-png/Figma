@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oterea Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">     
+    <div class="logo">
+        <img src="logo.png" alt="logo">
+        <span class="divider">|</span>
+        <span class="blog">Blog</span>
+    </div>
+
+    <nav>
+        <a href="#">Archives</a>
+        <a href="#">Store</a>
+        <button class="btn">Get a Quote</button>
+    </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Let’s Explore<br>New Possibilities...</h1>
+
+        <div class="search-box">
+            <input type="text" placeholder="How to, etc..">
+            <button>Search</button>
+        </div>
+
+        <p class="tags">#Design &nbsp; #Develop &nbsp; #Market</p>
+    </div>
+
+    <div class="hero-image">
+        <img src="announcement.png" alt="group">
+    </div>
+</section>
+
+<!-- ================= FEATURED POST ================= -->
+<section class="featured">
+    <img src="hand.png" alt="hand">
+
+    <div class="featured-text">
+        <h2>Latest post heading sample text..</h2>
+        <span>By Writer Name | Jan 1</span>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in volupate velit esse cillum dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident.
+        </p>
+
+        <a href="#">See full</a>
+    </div>
+</section>
+
+<!-- ================= BLOG CARDS ================= -->
+<section class="cards">
+    <div class="card">
+        <img src="bulb.png" alt="bulb">
+        <h3>Other post heading sample text..</h3>
+        <span>By Writer Name | 23 Dec.</span>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+    </div>
+
+    <div class="card">
+        <img src="bulb.png" alt="announcement">
+        <h3>Other post heading sample text..</h3>
+        <span>By Writer Name | 23 Dec.</span>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+    </div>
+
+    <div class="card">
+        <img src="bulb.png" alt="rectangle">
+        <h3>Other post heading sample text..</h3>
+        <span>By Writer Name | 23 Dec.</span>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+    </div>
+</section>
+
+<!-- ================= APP SECTION ================= -->
+<section class="app">
+    <div class="app-text">
+        <h2>Oterea Educare App</h2>
+        <p>For non stop learning</p>
+        <button class="app-btn">Download now</button>
+    </div>
+
+    <div class="app-image">
+        <img src="group.png" alt="app">
+    </div>
+</section>
+
+</body>
+</html>
